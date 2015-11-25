@@ -1,18 +1,24 @@
 # pdf-cleaner
-This allows you to clean a PDF and it's embedded images from any metadata.
+This allows you to clean a PDF and it's embedded images from any metadata. 
+Please leave any comments in the issues section, and I welcome a security and thorough code review. Thanks and enjoy.
 
 ### Prerequisites
 
 If you are running OSX, you can try the install.sh (coming soon) file to install all the prerequisites. Otherwise manually find the following: QPDF, pdftk, pdfinfo.
 
 #### QPDF
+the easy way with [homebrew](http://brew.is)
+`brew update`
 `brew install qpdf`
 
 #### pdftk
+as of writing the easiest way is just to download the latest package that works for El Capitan, when a homebrew version becomes available, I will hopefully update this.
 download https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/pdftk_server-2.02-mac_osx-10.11-setup.pkg 
-(works for El Capitan)
 
 #### pdfinfo
+the fastest way is to download the precombiled binary from foolabs for xpdf, which includes pdfinfo:
+
+move to your proper downloads folder to stay organized
 `cd ~/Downloads`
 
 get precompiled binary of xpdf which included pdfinfo
