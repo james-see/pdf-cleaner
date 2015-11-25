@@ -27,13 +27,13 @@ get precompiled binary of xpdf which included pdfinfo
 untar
 `tar -xzvf xpdfbin-mac-3.04.tar.gz`
 
-move the executables to the proper location
-`cd xpdfbin-mac-3.04`
-`cd bin64`
-`cp * /usr/local/bin`
+move the executables to the proper location   
+`cd xpdfbin-mac-3.04`   
+`cd bin64`   
+`cp * /usr/local/bin`   
 
 ### Quickstart
-To run, make sure you have the prereqs installed then drop the .sh file into your bin folder somewhere in your path, I use `/usr/local/bin`, so you can do a `git clone https://github.com/jamesacampbell/pdf-cleaner` into any folder then do a `ln -s pdf-cleaner/clean_pdf.sh /usr/local/bin` or `cp pdf-cleaner/clean_pdf.sh /usr/local/bin/`
+To run, make sure you have the prereqs installed then drop the .sh file into your bin folder somewhere in your path, I use `/usr/local/bin`, so you can do a `git clone https://github.com/jamesacampbell/pdf-cleaner.git` into any folder then do a `ln -s pdf-cleaner/clean_pdf.sh /usr/local/bin` or `cp pdf-cleaner/clean_pdf.sh /usr/local/bin/`
 
 Then run `sudo chmod +x clean_pdf.sh` to make it executable (assuming you cd to properly location first).
 
