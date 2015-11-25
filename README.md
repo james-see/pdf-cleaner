@@ -6,10 +6,10 @@ Please leave any comments in the issues section, and I welcome a security and th
 
 If you are running OSX, you can try the install.sh (coming soon) file to install all the prerequisites. Otherwise manually find the following: QPDF, pdftk, pdfinfo.
 
-#### QPDF
-the easy way with [homebrew](http://brew.is)
-`brew update`
-`brew install qpdf`
+#### QPDF   
+the easy way with [homebrew](http://brew.is)   
+`brew update`   
+`brew install qpdf`   
 
 #### pdftk
 as of writing the easiest way is just to download the latest package that works for El Capitan, when a homebrew version becomes available, I will hopefully update this.
@@ -18,13 +18,13 @@ download https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/pdftk_server-2.02-m
 #### pdfinfo
 the fastest way is to download the precombiled binary from foolabs for xpdf, which includes pdfinfo:
 
-move to your proper downloads folder to stay organized
+move to your proper downloads folder to stay organized   
 `cd ~/Downloads`
 
-get precompiled binary of xpdf which included pdfinfo
+get precompiled binary of xpdf which included pdfinfo   
 `curl ftp://ftp.foolabs.com/pub/xpdf/xpdfbin-mac-3.04.tar.gz`
 
-untar
+untar   
 `tar -xzvf xpdfbin-mac-3.04.tar.gz`
 
 move the executables to the proper location   
