@@ -2,7 +2,7 @@
     FILE=$1
     FILE="${FILE%%.*}"
     echo "#############"
-    echo $1
+    echo "loading "$1"..."
     echo "#############"
     if [ -e $1 ]
         then
