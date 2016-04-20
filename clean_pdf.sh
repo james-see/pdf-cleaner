@@ -1,9 +1,11 @@
 #!/bin/bash
     FILE=$1
     FILE="${FILE%%.*}"
-    echo "#############"
+    echo ""
+    echo "---#############---"
     echo "loading "$1"..."
-    echo "#############"
+    echo "---#############---"
+    echo ""
     if [ -e $1 ]
         then
         pdftk $1 dump_data | \
